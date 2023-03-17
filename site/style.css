@@ -9,14 +9,17 @@ body {
 }
 
 .illustration {
+    padding-top: 30px;
     display: flex;
-    padding-top: 40px;
-    gap: 52px
+    gap: 30px;
 }
 
 .ct {
+    max-width: 150px;
     display: flex;
-    gap: 30px;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
 }
 
 
@@ -70,9 +73,11 @@ body {
 }
 
 .container-three{
+    align-items: center;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 80px;
+    padding: 60px;
 }
 
 .container-for{
@@ -129,7 +134,6 @@ h4, p {
 
 
 .image {
-    display: flex;
     width: 150px;
     height: 150px;
     border-color: #3888F2;
@@ -141,7 +145,31 @@ h4, p {
 
 
 h6 {
+    margin: 0px;
     text-align: center;
+    color: #8e9096;
     font-size: 16px;
 }
+
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    width: 760px;
+    
+}
+
+.thor {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: right;
+    min-width: 760px;
+    justify-content: end;
+}
+
 
