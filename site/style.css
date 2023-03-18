@@ -81,11 +81,11 @@ body {
 }
 
 .container-for{
-    display: flex;
-    flex-direction: column;
-    padding: 80px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 80px;
 }
-
 
 
 .p, .img {
@@ -173,3 +173,37 @@ h6 {
 }
 
 
+.btnn {
+    border: none;
+    border-color: white;
+    border-style: solid;
+    font-size: 14px;
+    border-radius: 8px;
+    border-width: 2px;
+    background-color: #3888f2;
+    padding: 8px 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.background {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3888F2;
+    padding: 60px;
+    border-radius: 10px;
+    width: 1400px;
+}
+
+.time {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.right {
+    color:#c9cbcf;
+
+}
